@@ -1,0 +1,10 @@
+/*==========CSS Dashboard==========*/
+h1 {
+  color: red;
+  cursor: pointer;
+}
+
+
+html {
+ background-image: url("../imgs/giphy.gif") ;
+ background-size: 100%;
