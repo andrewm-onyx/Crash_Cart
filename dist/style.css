@@ -1,10 +1,60 @@
-/*==========CSS Dashboard==========*/
-h1 {
-  color: red;
-  cursor: pointer;
+
+body {
+ background-image: url("../imgs/blackweb.gif");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100%;
+ opacity: 0.9
 }
 
+tr {
+  max-width: 25%;
+}
 
-html {
- background-image: url("../imgs/giphy.gif") ;
- background-size: 100%;
+.container {
+  max-height: 50%;
+}
+
+/* Google Search Bar */
+
+
+/* Content */
+.row > div{
+
+      padding: 20%;
+      background: #fefe;
+      border: 20px;
+      border-color: white;
+      border-radius: 2%;
+      opacity: .8;
+      margin: auto;
+
+    }
+
+    .row{
+      display: grid;
+      grid-gap: 15%;
+      grid-template-columns: auto auto;
+      margin-top: 20%;
+      padding: 10px;
+      color: red;
+
+      border-width: 2px;
+      border-color: red;
+    }
+
+
+.icon {
+  max-height: 25%;
+  max-width: 25%;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 20%;
+}
